@@ -1,0 +1,421 @@
+using hostfile hostfile
+SIZE: 1024, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  1024 0
+
+real	0m0.684s
+user	0m0.079s
+sys	0m0.056s
+SIZE: 1024, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  1024 0
+
+real	0m0.772s
+user	0m0.064s
+sys	0m0.071s
+SIZE: 1024, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  1024 0
+
+real	0m0.895s
+user	0m0.085s
+sys	0m0.078s
+SIZE: 1024, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  1024 0
+
+real	0m1.049s
+user	0m0.138s
+sys	0m0.071s
+SIZE: 1024, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  1024 0
+
+real	0m2.343s
+user	0m0.194s
+sys	0m0.122s
+SIZE: 1024, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  1024 0
+
+real	0m7.501s
+user	0m0.049s
+sys	0m0.082s
+SIZE: 1024, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  1024 0
+
+real	0m10.910s
+user	0m0.330s
+sys	0m0.158s
+SIZE: 2048, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  2048 0
+
+real	0m0.719s
+user	0m0.199s
+sys	0m0.118s
+SIZE: 2048, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  2048 0
+
+real	0m0.931s
+user	0m0.091s
+sys	0m0.052s
+SIZE: 2048, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  2048 0
+
+real	0m1.348s
+user	0m0.090s
+sys	0m0.073s
+SIZE: 2048, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  2048 0
+
+real	0m1.487s
+user	0m0.098s
+sys	0m0.060s
+SIZE: 2048, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  2048 0
+
+real	0m1.858s
+user	0m0.202s
+sys	0m0.115s
+SIZE: 2048, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  2048 0
+
+real	0m10.978s
+user	0m0.243s
+sys	0m0.128s
+SIZE: 2048, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  2048 0
+
+real	0m16.639s
+user	0m0.215s
+sys	0m0.150s
+SIZE: 4096, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  4096 0
+
+real	0m0.720s
+user	0m0.052s
+sys	0m0.064s
+SIZE: 4096, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  4096 0
+
+real	0m1.114s
+user	0m0.046s
+sys	0m0.093s
+SIZE: 4096, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  4096 0
+
+real	0m1.557s
+user	0m0.078s
+sys	0m0.073s
+SIZE: 4096, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  4096 0
+
+real	0m2.240s
+user	0m0.182s
+sys	0m0.102s
+SIZE: 4096, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  4096 0
+
+real	0m2.976s
+user	0m0.217s
+sys	0m0.124s
+SIZE: 4096, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  4096 0
+
+real	0m13.354s
+user	0m0.257s
+sys	0m0.134s
+SIZE: 4096, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  4096 0
+
+real	0m21.541s
+user	0m0.312s
+sys	0m0.186s
+SIZE: 8192, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  8192 0
+
+real	0m0.803s
+user	0m0.052s
+sys	0m0.067s
+SIZE: 8192, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  8192 0
+
+real	0m1.717s
+user	0m0.094s
+sys	0m0.054s
+SIZE: 8192, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  8192 0
+
+real	0m2.342s
+user	0m0.081s
+sys	0m0.067s
+SIZE: 8192, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  8192 0
+
+real	0m3.611s
+user	0m0.205s
+sys	0m0.140s
+SIZE: 8192, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  8192 0
+
+real	0m4.608s
+user	0m0.146s
+sys	0m0.105s
+SIZE: 8192, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  8192 0
+
+real	0m16.035s
+user	0m0.227s
+sys	0m0.117s
+SIZE: 8192, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  8192 0
+
+real	0m27.846s
+user	0m0.250s
+sys	0m0.176s
+SIZE: 16384, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  16384 0
+
+real	0m0.754s
+user	0m0.061s
+sys	0m0.056s
+SIZE: 16384, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  16384 0
+
+real	0m2.763s
+user	0m0.050s
+sys	0m0.084s
+SIZE: 16384, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  16384 0
+
+real	0m3.996s
+user	0m0.115s
+sys	0m0.081s
+SIZE: 16384, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  16384 0
+
+real	0m6.478s
+user	0m0.057s
+sys	0m0.091s
+SIZE: 16384, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  16384 0
+
+real	0m8.184s
+user	0m0.417s
+sys	0m0.203s
+SIZE: 16384, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  16384 0
+
+real	0m18.070s
+user	0m0.206s
+sys	0m0.095s
+SIZE: 16384, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  16384 0
+
+real	0m36.034s
+user	0m0.289s
+sys	0m0.117s
+SIZE: 32768, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  32768 0
+
+real	0m0.941s
+user	0m0.136s
+sys	0m0.073s
+SIZE: 32768, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  32768 0
+
+real	0m5.078s
+user	0m0.077s
+sys	0m0.076s
+SIZE: 32768, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  32768 0
+
+real	0m7.200s
+user	0m0.102s
+sys	0m0.076s
+SIZE: 32768, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  32768 0
+
+real	0m12.344s
+user	0m0.070s
+sys	0m0.084s
+SIZE: 32768, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  32768 0
+
+real	0m15.766s
+user	0m0.130s
+sys	0m0.101s
+SIZE: 32768, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  32768 0
+
+real	0m20.687s
+user	0m0.149s
+sys	0m0.097s
+SIZE: 32768, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  32768 0
+
+real	0m46.781s
+user	0m0.127s
+sys	0m0.108s
+SIZE: 65536, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  65536 0
+
+real	0m0.851s
+user	0m0.059s
+sys	0m0.054s
+SIZE: 65536, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  65536 0
+
+real	0m17.078s
+user	0m0.097s
+sys	0m0.094s
+SIZE: 65536, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  65536 0
+
+real	0m13.588s
+user	0m0.068s
+sys	0m0.078s
+SIZE: 65536, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  65536 0
+
+real	0m23.255s
+user	0m0.128s
+sys	0m0.096s
+SIZE: 65536, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  65536 0
+
+real	0m30.556s
+user	0m0.105s
+sys	0m0.091s
+SIZE: 65536, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  65536 0
+
+real	0m33.874s
+user	0m0.203s
+sys	0m0.145s
+SIZE: 65536, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  65536 0
+
+real	1m3.691s
+user	0m0.233s
+sys	0m0.156s
+SIZE: 131072, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  131072 0
+
+real	0m1.060s
+user	0m0.054s
+sys	0m0.068s
+SIZE: 131072, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  131072 0
+
+real	0m17.386s
+user	0m0.072s
+sys	0m0.064s
+SIZE: 131072, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  131072 0
+
+real	0m26.617s
+user	0m0.162s
+sys	0m0.079s
+SIZE: 131072, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  131072 0
+
+real	0m46.551s
+user	0m0.111s
+sys	0m0.070s
+SIZE: 131072, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  131072 0
+
+real	1m0.160s
+user	0m0.069s
+sys	0m0.060s
+SIZE: 131072, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  131072 0
+
+real	1m5.985s
+user	0m0.046s
+sys	0m0.091s
+SIZE: 131072, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  131072 0
+
+real	1m25.804s
+user	0m0.066s
+sys	0m0.079s
+SIZE: 262144, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  262144 0
+
+real	0m1.215s
+user	0m0.027s
+sys	0m0.069s
+SIZE: 262144, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  262144 0
+
+real	0m34.649s
+user	0m0.063s
+sys	0m0.057s
+SIZE: 262144, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  262144 0
+
+real	0m57.143s
+user	0m0.089s
+sys	0m0.063s
+SIZE: 262144, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  262144 0
+
+real	2m0.703s
+user	0m0.052s
+sys	0m0.082s
+SIZE: 262144, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  262144 0
+
+real	1m57.947s
+user	0m0.091s
+sys	0m0.071s
+SIZE: 262144, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  262144 0
+
+real	2m11.647s
+user	0m0.074s
+sys	0m0.072s
+SIZE: 262144, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  262144 0
+
+real	2m31.003s
+user	0m0.098s
+sys	0m0.092s
+SIZE: 524288, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./radixMPIParallel  524288 0
+
+real	0m1.633s
+user	0m0.039s
+sys	0m0.078s
+SIZE: 524288, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./radixMPIParallel  524288 0
+
+real	1m6.853s
+user	0m0.086s
+sys	0m0.068s
+SIZE: 524288, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./radixMPIParallel  524288 0
+
+real	1m44.771s
+user	0m0.082s
+sys	0m0.109s
+SIZE: 524288, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./radixMPIParallel  524288 0
+
+real	3m5.449s
+user	0m0.138s
+sys	0m0.091s
+SIZE: 524288, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./radixMPIParallel  524288 0
+
+real	3m55.739s
+user	0m0.091s
+sys	0m0.094s
+SIZE: 524288, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./radixMPIParallel  524288 0
+
+real	4m18.408s
+user	0m0.082s
+sys	0m0.070s
+SIZE: 524288, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./radixMPIParallel  524288 0
+
+real	5m1.595s
+user	0m0.099s
+sys	0m0.096s
