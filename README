@@ -1,0 +1,24 @@
+The source code consists of one folder for each algorithm. Each of these folders
+contain two directories: Sequential and Parallel. Each Parallel folder contains
+the following files of interest:
+1)Makefile: type make to make executeables
+2)Main code file in c or cpp
+3)Runfile scripts: you should run ssh-agent bash and ssh-add, then use ./scriptfile. 
+4)Tokeniser.c: this file takes in the output file of the runfile scripts and
+form it into a csv file. You would need to compile it using gcc or g++. you use it by calling ./tokeniser time_outputfile
+5)Data and Visuals directory:
+  a) Graph_generator.py: this file takes in the csv file from tokeniser and
+                         and converts it into runtime\systemtime graphs using plotly and numpy. 
+                         You can run it by calling python3 Graph_generator.py
+
+
+
+For the Sequential directories,
+1)Sortingfile.cpp\.c: you can compile it using gcc or g++ compiler. The function takes input of size.
+2)run_experiments.py file: this file uses python subprocess library to call experiments and stores them in a csv file
+3)data/graph_converter.py: this file uses python plotly library to make runtime graphs for sequential runtime data. You can call it by python3 graph_converter.py.
+
+                         
+    
+                         
+                

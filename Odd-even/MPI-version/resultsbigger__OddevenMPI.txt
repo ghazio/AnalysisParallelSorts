@@ -1,0 +1,1414 @@
+using hostfile hostfile
+SIZE: 1024, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.804s
+user	0m0.070s
+sys	0m0.077s
+SIZE: 1024, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.685s
+user	0m0.128s
+sys	0m0.079s
+SIZE: 1024, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.716s
+user	0m0.330s
+sys	0m0.214s
+SIZE: 1024, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.757s
+user	0m0.121s
+sys	0m0.117s
+SIZE: 1024, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.748s
+user	0m0.315s
+sys	0m0.131s
+SIZE: 1024, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.797s
+user	0m0.284s
+sys	0m0.141s
+SIZE: 1024, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.943s
+user	0m0.261s
+sys	0m0.132s
+SIZE: 2048, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.666s
+user	0m0.101s
+sys	0m0.073s
+SIZE: 2048, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.722s
+user	0m0.053s
+sys	0m0.077s
+SIZE: 2048, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.691s
+user	0m0.054s
+sys	0m0.080s
+SIZE: 2048, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.701s
+user	0m0.090s
+sys	0m0.082s
+SIZE: 2048, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.778s
+user	0m0.154s
+sys	0m0.081s
+SIZE: 2048, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.847s
+user	0m0.293s
+sys	0m0.173s
+SIZE: 2048, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  2048 
+
+real	0m1.087s
+user	0m0.307s
+sys	0m0.154s
+SIZE: 4096, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.656s
+user	0m0.078s
+sys	0m0.096s
+SIZE: 4096, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.689s
+user	0m0.081s
+sys	0m0.084s
+SIZE: 4096, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.758s
+user	0m0.071s
+sys	0m0.069s
+SIZE: 4096, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.774s
+user	0m0.101s
+sys	0m0.097s
+SIZE: 4096, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.799s
+user	0m0.161s
+sys	0m0.120s
+SIZE: 4096, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.952s
+user	0m0.237s
+sys	0m0.137s
+SIZE: 4096, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  4096 
+
+real	0m1.395s
+user	0m0.496s
+sys	0m0.293s
+SIZE: 8192, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  8192 
+
+real	0m0.747s
+user	0m0.047s
+sys	0m0.067s
+SIZE: 8192, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  8192 
+
+real	0m0.615s
+user	0m0.047s
+sys	0m0.061s
+SIZE: 8192, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  8192 
+
+real	0m0.702s
+user	0m0.076s
+sys	0m0.103s
+SIZE: 8192, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  8192 
+
+real	0m0.811s
+user	0m0.107s
+sys	0m0.081s
+SIZE: 8192, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  8192 
+
+real	0m0.884s
+user	0m0.203s
+sys	0m0.107s
+SIZE: 8192, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  8192 
+
+real	0m1.278s
+user	0m0.533s
+sys	0m0.282s
+SIZE: 8192, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  8192 
+
+real	0m2.058s
+user	0m0.454s
+sys	0m0.179s
+SIZE: 16384, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  16384 
+
+real	0m0.726s
+user	0m0.049s
+sys	0m0.072s
+SIZE: 16384, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  16384 
+
+real	0m0.700s
+user	0m0.063s
+sys	0m0.078s
+SIZE: 16384, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  16384 
+
+real	0m0.759s
+user	0m0.152s
+sys	0m0.086s
+SIZE: 16384, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  16384 
+
+real	0m0.914s
+user	0m0.127s
+sys	0m0.089s
+SIZE: 16384, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  16384 
+
+real	0m1.182s
+user	0m0.180s
+sys	0m0.138s
+SIZE: 16384, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  16384 
+
+real	0m2.007s
+user	0m0.293s
+sys	0m0.180s
+SIZE: 16384, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  16384 
+
+real	0m4.233s
+user	0m0.394s
+sys	0m0.209s
+SIZE: 32768, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  32768 
+
+real	0m0.794s
+user	0m0.065s
+sys	0m0.078s
+SIZE: 32768, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  32768 
+
+real	0m0.799s
+user	0m0.083s
+sys	0m0.045s
+SIZE: 32768, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  32768 
+
+real	0m0.841s
+user	0m0.087s
+sys	0m0.064s
+SIZE: 32768, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  32768 
+
+real	0m1.015s
+user	0m0.079s
+sys	0m0.103s
+SIZE: 32768, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  32768 
+
+real	0m1.377s
+user	0m0.310s
+sys	0m0.167s
+SIZE: 32768, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  32768 
+
+real	0m3.246s
+user	0m0.316s
+sys	0m0.162s
+SIZE: 32768, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  32768 
+
+real	0m6.981s
+user	0m0.257s
+sys	0m0.126s
+SIZE: 65536, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  65536 
+
+real	0m0.796s
+user	0m0.060s
+sys	0m0.048s
+SIZE: 65536, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  65536 
+
+real	0m0.802s
+user	0m0.096s
+sys	0m0.062s
+SIZE: 65536, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  65536 
+
+real	0m1.020s
+user	0m0.087s
+sys	0m0.092s
+SIZE: 65536, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  65536 
+
+real	0m1.347s
+user	0m0.122s
+sys	0m0.077s
+SIZE: 65536, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  65536 
+
+real	0m2.005s
+user	0m0.166s
+sys	0m0.103s
+SIZE: 65536, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  65536 
+
+real	0m5.304s
+user	0m0.475s
+sys	0m0.187s
+SIZE: 65536, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  65536 
+
+real	0m13.828s
+user	0m0.197s
+sys	0m0.123s
+SIZE: 131072, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  131072 
+
+real	0m0.836s
+user	0m0.115s
+sys	0m0.087s
+SIZE: 131072, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  131072 
+
+real	0m0.916s
+user	0m0.052s
+sys	0m0.075s
+SIZE: 131072, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  131072 
+
+real	0m1.256s
+user	0m0.163s
+sys	0m0.111s
+SIZE: 131072, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  131072 
+
+real	0m1.856s
+user	0m0.158s
+sys	0m0.082s
+SIZE: 131072, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  131072 
+
+real	0m3.236s
+user	0m0.204s
+sys	0m0.127s
+SIZE: 131072, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  131072 
+
+real	0m9.277s
+user	0m0.253s
+sys	0m0.169s
+SIZE: 131072, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  131072 
+
+real	0m25.632s
+user	0m0.302s
+sys	0m0.197s
+SIZE: 262144, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  262144 
+
+real	0m0.934s
+user	0m0.193s
+sys	0m0.095s
+SIZE: 262144, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  262144 
+
+real	0m1.304s
+user	0m0.084s
+sys	0m0.055s
+SIZE: 262144, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  262144 
+
+real	0m1.771s
+user	0m0.074s
+sys	0m0.088s
+SIZE: 262144, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  262144 
+
+real	0m3.100s
+user	0m0.100s
+sys	0m0.103s
+SIZE: 262144, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  262144 
+
+real	0m6.023s
+user	0m0.261s
+sys	0m0.148s
+SIZE: 262144, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  262144 
+
+real	0m17.843s
+user	0m0.255s
+sys	0m0.144s
+SIZE: 262144, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  262144 
+
+real	0m52.516s
+user	0m0.324s
+sys	0m0.143s
+SIZE: 524288, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  524288 
+
+real	0m1.283s
+user	0m0.062s
+sys	0m0.064s
+SIZE: 524288, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  524288 
+
+real	0m1.812s
+user	0m0.067s
+sys	0m0.070s
+SIZE: 524288, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  524288 
+
+real	0m3.046s
+user	0m0.391s
+sys	0m0.192s
+SIZE: 524288, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  524288 
+
+real	0m5.968s
+user	0m0.178s
+sys	0m0.122s
+SIZE: 524288, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  524288 
+
+real	0m11.072s
+user	0m0.144s
+sys	0m0.134s
+SIZE: 524288, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  524288 
+
+real	0m34.378s
+user	0m0.266s
+sys	0m0.153s
+SIZE: 524288, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  524288 
+
+real	1m46.721s
+user	0m0.375s
+sys	0m0.211s
+using hostfile hostfile
+SIZE: 1024, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  1024 
+
+real	0m30.115s
+user	0m0.026s
+sys	0m0.039s
+SIZE: 1024, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  1024 
+
+real	0m1.114s
+user	0m0.026s
+sys	0m0.036s
+SIZE: 1024, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.171s
+user	0m0.017s
+sys	0m0.047s
+SIZE: 1024, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.491s
+user	0m0.016s
+sys	0m0.046s
+SIZE: 1024, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.039s
+user	0m0.021s
+sys	0m0.007s
+SIZE: 1024, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.041s
+user	0m0.014s
+sys	0m0.017s
+SIZE: 1024, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.097s
+user	0m0.020s
+sys	0m0.036s
+SIZE: 2048, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.035s
+user	0m0.005s
+sys	0m0.019s
+SIZE: 2048, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.078s
+user	0m0.014s
+sys	0m0.048s
+SIZE: 2048, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  2048 
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.145 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.145 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.41 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.41 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.74 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.74 port 22
+Received disconnect from 130.58.68.206 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.56 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.206 port 22
+Received disconnect from 130.58.68.152 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.56 port 22
+Permission denied, please try again.
+Disconnected from 130.58.68.152 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.180 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.180 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.166 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.166 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.162 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.162 port 22
+Received disconnect from 130.58.68.225 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.225 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.109 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.109 port 22
+Received disconnect from 130.58.68.118 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.118 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.187 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.187 port 22
+Received disconnect from 130.58.68.147 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.65 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.147 port 22
+Disconnected from 130.58.68.65 port 22
+Received disconnect from 130.58.68.70 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.70 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.44 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.44 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.13 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.13 port 22
+Received disconnect from 130.58.68.169 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Received disconnect from 130.58.68.151 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.169 port 22
+Disconnected from 130.58.68.151 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.222 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.222 port 22
+Received disconnect from 130.58.68.67 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.190 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.67 port 22
+Permission denied, please try again.
+Disconnected from 130.58.68.190 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.72 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.72 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.78 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.78 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.188 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.75 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.188 port 22
+Permission denied, please try again.
+Disconnected from 130.58.68.75 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.69 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.193 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.69 port 22
+Permission denied, please try again.
+Disconnected from 130.58.68.193 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.221 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.221 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.182 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.182 port 22
+Received disconnect from 130.58.68.186 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.117 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.186 port 22
+Disconnected from 130.58.68.117 port 22
+Received disconnect from 130.58.68.15 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.15 port 22
+Received disconnect from 130.58.68.127 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.192 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.159 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.127 port 22
+Disconnected from 130.58.68.192 port 22
+Received disconnect from 130.58.68.235 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.159 port 22
+Disconnected from 130.58.68.235 port 22
+Received disconnect from 130.58.68.105 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.215 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.105 port 22
+Received disconnect from 130.58.68.158 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.215 port 22
+Disconnected from 130.58.68.158 port 22
+Received disconnect from 130.58.68.231 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.51 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.231 port 22
+Disconnected from 130.58.68.51 port 22
+Received disconnect from 130.58.68.115 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.115 port 22
+Received disconnect from 130.58.68.112 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.214 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.112 port 22
+Received disconnect from 130.58.68.220 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.214 port 22
+Disconnected from 130.58.68.220 port 22
+Received disconnect from 130.58.68.114 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.30 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.114 port 22
+Received disconnect from 130.58.68.61 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.30 port 22
+Received disconnect from 130.58.68.207 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.61 port 22
+Disconnected from 130.58.68.207 port 22
+Received disconnect from 130.58.68.211 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.210 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.211 port 22
+Disconnected from 130.58.68.210 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.152 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.152 port 22
+Received disconnect from 130.58.68.160 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.160 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.41 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.41 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.13 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.13 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.109 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.109 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.74 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.74 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.145 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.145 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.30 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.30 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.140 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Permission denied, please try again.
+Disconnected from 130.58.68.140 port 22
+Received disconnect from 130.58.68.188 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.188 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.166 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.166 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.190 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.75 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.190 port 22
+Disconnected from 130.58.68.75 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.221 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.221 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.169 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.169 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.162 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.162 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.151 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.151 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.56 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.56 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.117 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.182 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.117 port 22
+Received disconnect from 130.58.68.115 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.182 port 22
+Received disconnect from 130.58.68.206 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.206 port 22
+Disconnected from 130.58.68.115 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.44 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.65 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.44 port 22
+Disconnected from 130.58.68.65 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.192 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.192 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.67 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.70 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.67 port 22
+Disconnected from 130.58.68.70 port 22
+Received disconnect from 130.58.68.105 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.105 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.112 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.180 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.222 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.112 port 22
+Permission denied, please try again.
+Disconnected from 130.58.68.180 port 22
+Disconnected from 130.58.68.222 port 22
+Received disconnect from 130.58.68.147 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.147 port 22
+Received disconnect from 130.58.68.72 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.72 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.193 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.187 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.193 port 22
+Disconnected from 130.58.68.187 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.118 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.118 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.186 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.186 port 22
+Received disconnect from 130.58.68.114 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.69 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.114 port 22
+Permission denied, please try again.
+Disconnected from 130.58.68.69 port 22
+Received disconnect from 130.58.68.225 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.225 port 22
+Received disconnect from 130.58.68.51 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.231 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.51 port 22
+Disconnected from 130.58.68.231 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.15 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.15 port 22
+Received disconnect from 130.58.68.220 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.220 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.127 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.61 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.127 port 22
+Received disconnect from 130.58.68.235 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.61 port 22
+Disconnected from 130.58.68.235 port 22
+Received disconnect from 130.58.68.158 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.207 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.158 port 22
+Disconnected from 130.58.68.207 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.215 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.215 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.211 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.211 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.78 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.78 port 22
+Received disconnect from 130.58.68.210 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.210 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.214 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.214 port 22
+Received disconnect from 130.58.68.159 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.159 port 22
+using hostfile hostfile
+SIZE: 1024, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  1024 
+
+real	0m1.337s
+user	0m0.028s
+sys	0m0.038s
+SIZE: 1024, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.207s
+user	0m0.026s
+sys	0m0.035s
+SIZE: 1024, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.125s
+user	0m0.008s
+sys	0m0.050s
+SIZE: 1024, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.167s
+user	0m0.022s
+sys	0m0.040s
+SIZE: 1024, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.192s
+user	0m0.018s
+sys	0m0.040s
+SIZE: 1024, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.493s
+user	0m0.023s
+sys	0m0.042s
+SIZE: 1024, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.044s
+user	0m0.011s
+sys	0m0.019s
+SIZE: 2048, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.037s
+user	0m0.008s
+sys	0m0.020s
+SIZE: 2048, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.083s
+user	0m0.020s
+sys	0m0.042s
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.169 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.169 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.118 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.118 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.65 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.65 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.44 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.44 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.112 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.112 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.151 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.151 port 22
+Received disconnect from 130.58.68.105 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.221 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.105 port 22
+Received disconnect from 130.58.68.67 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.221 port 22
+Disconnected from 130.58.68.67 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.15 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Permission denied, please try again.
+Disconnected from 130.58.68.15 port 22
+Received disconnect from 130.58.68.69 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.69 port 22
+Received disconnect from 130.58.68.190 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.190 port 22
+Received disconnect from 130.58.68.193 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.193 port 22
+Received disconnect from 130.58.68.51 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.51 port 22
+Received disconnect from 130.58.68.222 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.222 port 22
+Received disconnect from 130.58.68.235 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.235 port 22
+Received disconnect from 130.58.68.231 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.231 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.211 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.158 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.211 port 22
+Received disconnect from 130.58.68.61 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.158 port 22
+Disconnected from 130.58.68.61 port 22
+Received disconnect from 130.58.68.207 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.207 port 22
+Received disconnect from 130.58.68.225 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.225 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.127 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.127 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.78 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.78 port 22
+Received disconnect from 130.58.68.214 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.214 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.41 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.41 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.75 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.75 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.162 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.162 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.74 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.74 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.145 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.145 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.160 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.160 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.140 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.140 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.166 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.166 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.109 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.109 port 22
+Received disconnect from 130.58.68.169 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.169 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.13 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.13 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.222 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.222 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.147 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.147 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.56 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.56 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.192 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.192 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.231 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.231 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.221 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.221 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.220 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.151 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.220 port 22
+Disconnected from 130.58.68.151 port 22
+Received disconnect from 130.58.68.186 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Permission denied, please try again.
+Disconnected from 130.58.68.186 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.180 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.180 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.206 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.206 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.115 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.115 port 22
+Received disconnect from 130.58.68.65 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.65 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.152 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.152 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.211 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.211 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.190 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.190 port 22
+Received disconnect from 130.58.68.67 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.67 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.105 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.30 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.105 port 22
+Disconnected from 130.58.68.30 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.127 port 22:2: Too many authentication failures
+Permission denied, please try again.
+Disconnected from 130.58.68.127 port 22
+Permission denied, please try again.
+Received disconnect from 130.58.68.210 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.210 port 22
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied, please try again.
+Received disconnect from 130.58.68.69 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.114 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.69 port 22
+Permission denied, please try again.
+Disconnected from 130.58.68.114 port 22
+Received disconnect from 130.58.68.118 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.51 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.118 port 22
+Disconnected from 130.58.68.51 port 22
+Received disconnect from 130.58.68.70 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.70 port 22
+Received disconnect from 130.58.68.214 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.214 port 22
+Received disconnect from 130.58.68.182 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.112 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.182 port 22
+Disconnected from 130.58.68.112 port 22
+Received disconnect from 130.58.68.188 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.188 port 22
+Received disconnect from 130.58.68.193 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.193 port 22
+Received disconnect from 130.58.68.78 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.15 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.78 port 22
+Received disconnect from 130.58.68.187 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.15 port 22
+Disconnected from 130.58.68.187 port 22
+Received disconnect from 130.58.68.215 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.215 port 22
+Received disconnect from 130.58.68.117 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.225 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.117 port 22
+Received disconnect from 130.58.68.44 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.225 port 22
+Disconnected from 130.58.68.44 port 22
+Received disconnect from 130.58.68.158 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.61 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.158 port 22
+Disconnected from 130.58.68.61 port 22
+Received disconnect from 130.58.68.159 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.207 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.159 port 22
+Received disconnect from 130.58.68.72 port 22:2: Too many authentication failures
+Received disconnect from 130.58.68.235 port 22:2: Too many authentication failures
+Disconnected from 130.58.68.207 port 22
+Disconnected from 130.58.68.72 port 22
+Disconnected from 130.58.68.235 port 22
+using hostfile hostfile
+SIZE: 1024, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.866s
+user	0m0.097s
+sys	0m0.111s
+SIZE: 1024, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.682s
+user	0m0.047s
+sys	0m0.066s
+SIZE: 1024, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.697s
+user	0m0.131s
+sys	0m0.082s
+SIZE: 1024, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  1024 
+
+real	0m0.711s
+user	0m0.094s
+sys	0m0.093s
+SIZE: 1024, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  1024 
+
+real	0m1.038s
+user	0m0.208s
+sys	0m0.146s
+SIZE: 1024, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  1024 
+
+real	0m1.105s
+user	0m0.390s
+sys	0m0.187s
+SIZE: 1024, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  1024 
+
+real	0m1.518s
+user	0m0.434s
+sys	0m0.279s
+SIZE: 2048, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.610s
+user	0m0.146s
+sys	0m0.103s
+SIZE: 2048, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.688s
+user	0m0.110s
+sys	0m0.069s
+SIZE: 2048, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.721s
+user	0m0.137s
+sys	0m0.113s
+SIZE: 2048, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.762s
+user	0m0.187s
+sys	0m0.100s
+SIZE: 2048, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  2048 
+
+real	0m0.902s
+user	0m0.194s
+sys	0m0.147s
+SIZE: 2048, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  2048 
+
+real	0m1.108s
+user	0m0.396s
+sys	0m0.224s
+SIZE: 2048, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  2048 
+
+real	0m1.717s
+user	0m0.495s
+sys	0m0.276s
+SIZE: 4096, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.091s
+user	0m0.020s
+sys	0m0.040s
+SIZE: 4096, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.817s
+user	0m0.087s
+sys	0m0.075s
+SIZE: 4096, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./oddevensort  4096 
+
+real	0m1.090s
+user	0m0.662s
+sys	0m0.213s
+SIZE: 4096, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.059s
+user	0m0.015s
+sys	0m0.015s
+SIZE: 4096, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.038s
+user	0m0.018s
+sys	0m0.011s
+SIZE: 4096, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.038s
+user	0m0.010s
+sys	0m0.019s
+SIZE: 4096, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./oddevensort  4096 
+
+real	0m0.071s
+user	0m0.020s
+sys	0m0.039s
+SIZE: 8192, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./oddevensort  8192 

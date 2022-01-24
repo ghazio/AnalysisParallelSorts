@@ -1,0 +1,421 @@
+using hostfile hostfile
+SIZE: 1024, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  1024 0 4
+
+real	0m0.700s
+user	0m0.075s
+sys	0m0.073s
+SIZE: 1024, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  1024 0 8
+
+real	0m0.653s
+user	0m0.126s
+sys	0m0.066s
+SIZE: 1024, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  1024 0 16
+
+real	0m0.628s
+user	0m0.085s
+sys	0m0.072s
+SIZE: 1024, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  1024 0 32
+
+real	0m0.672s
+user	0m0.110s
+sys	0m0.100s
+SIZE: 1024, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  1024 0 64
+
+real	0m0.666s
+user	0m0.180s
+sys	0m0.094s
+SIZE: 1024, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  1024 0 128
+
+real	0m0.723s
+user	0m0.529s
+sys	0m0.236s
+SIZE: 1024, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  1024 0 256
+
+real	0m0.724s
+user	0m0.496s
+sys	0m0.185s
+SIZE: 2048, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  2048 0 4
+
+real	0m0.562s
+user	0m0.073s
+sys	0m0.078s
+SIZE: 2048, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  2048 0 8
+
+real	0m0.668s
+user	0m0.088s
+sys	0m0.074s
+SIZE: 2048, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  2048 0 16
+
+real	0m0.649s
+user	0m0.052s
+sys	0m0.076s
+SIZE: 2048, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  2048 0 32
+
+real	0m0.654s
+user	0m0.110s
+sys	0m0.095s
+SIZE: 2048, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  2048 0 64
+
+real	0m0.752s
+user	0m0.151s
+sys	0m0.124s
+SIZE: 2048, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  2048 0 128
+
+real	0m0.742s
+user	0m0.266s
+sys	0m0.198s
+SIZE: 2048, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  2048 0 256
+
+real	0m0.801s
+user	0m0.478s
+sys	0m0.195s
+SIZE: 4096, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  4096 0 4
+
+real	0m0.575s
+user	0m0.087s
+sys	0m0.063s
+SIZE: 4096, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  4096 0 8
+
+real	0m0.633s
+user	0m0.113s
+sys	0m0.074s
+SIZE: 4096, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  4096 0 16
+
+real	0m0.637s
+user	0m0.090s
+sys	0m0.082s
+SIZE: 4096, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  4096 0 32
+
+real	0m0.678s
+user	0m0.125s
+sys	0m0.075s
+SIZE: 4096, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  4096 0 64
+
+real	0m0.716s
+user	0m0.135s
+sys	0m0.100s
+SIZE: 4096, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  4096 0 128
+
+real	0m0.781s
+user	0m0.391s
+sys	0m0.209s
+SIZE: 4096, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  4096 0 256
+
+real	0m0.821s
+user	0m0.302s
+sys	0m0.142s
+SIZE: 8192, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  8192 0 4
+
+real	0m0.642s
+user	0m0.118s
+sys	0m0.090s
+SIZE: 8192, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  8192 0 8
+
+real	0m0.629s
+user	0m0.081s
+sys	0m0.060s
+SIZE: 8192, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  8192 0 16
+
+real	0m0.684s
+user	0m0.060s
+sys	0m0.098s
+SIZE: 8192, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  8192 0 32
+
+real	0m0.693s
+user	0m0.158s
+sys	0m0.073s
+SIZE: 8192, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  8192 0 64
+
+real	0m0.770s
+user	0m0.137s
+sys	0m0.100s
+SIZE: 8192, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  8192 0 128
+
+real	0m0.791s
+user	0m0.261s
+sys	0m0.146s
+SIZE: 8192, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  8192 0 256
+
+real	0m1.183s
+user	0m0.328s
+sys	0m0.146s
+SIZE: 16384, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  16384 0 4
+
+real	0m0.848s
+user	0m0.079s
+sys	0m0.078s
+SIZE: 16384, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  16384 0 8
+
+real	0m0.637s
+user	0m0.071s
+sys	0m0.069s
+SIZE: 16384, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  16384 0 16
+
+real	0m0.695s
+user	0m0.093s
+sys	0m0.071s
+SIZE: 16384, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  16384 0 32
+
+real	0m0.758s
+user	0m0.067s
+sys	0m0.061s
+SIZE: 16384, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  16384 0 64
+
+real	0m0.784s
+user	0m0.184s
+sys	0m0.140s
+SIZE: 16384, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  16384 0 128
+
+real	0m0.852s
+user	0m0.313s
+sys	0m0.137s
+SIZE: 16384, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  16384 0 256
+
+real	0m1.449s
+user	0m0.286s
+sys	0m0.138s
+SIZE: 32768, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  32768 0 4
+
+real	0m0.683s
+user	0m0.140s
+sys	0m0.099s
+SIZE: 32768, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  32768 0 8
+
+real	0m0.681s
+user	0m0.067s
+sys	0m0.086s
+SIZE: 32768, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  32768 0 16
+
+real	0m0.639s
+user	0m0.088s
+sys	0m0.054s
+SIZE: 32768, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  32768 0 32
+
+real	0m0.719s
+user	0m0.096s
+sys	0m0.094s
+SIZE: 32768, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  32768 0 64
+
+real	0m0.866s
+user	0m0.206s
+sys	0m0.126s
+SIZE: 32768, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  32768 0 128
+
+real	0m1.062s
+user	0m0.278s
+sys	0m0.177s
+SIZE: 32768, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  32768 0 256
+
+real	0m1.846s
+user	0m0.259s
+sys	0m0.183s
+SIZE: 65536, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  65536 0 4
+
+real	0m0.730s
+user	0m0.088s
+sys	0m0.070s
+SIZE: 65536, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  65536 0 8
+
+real	0m0.687s
+user	0m0.077s
+sys	0m0.070s
+SIZE: 65536, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  65536 0 16
+
+real	0m0.792s
+user	0m0.102s
+sys	0m0.057s
+SIZE: 65536, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  65536 0 32
+
+real	0m0.856s
+user	0m0.127s
+sys	0m0.109s
+SIZE: 65536, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  65536 0 64
+
+real	0m1.083s
+user	0m0.206s
+sys	0m0.110s
+SIZE: 65536, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  65536 0 128
+
+real	0m1.467s
+user	0m0.302s
+sys	0m0.160s
+SIZE: 65536, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  65536 0 256
+
+real	0m2.647s
+user	0m0.299s
+sys	0m0.158s
+SIZE: 131072, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  131072 0 4
+
+real	0m0.709s
+user	0m0.136s
+sys	0m0.122s
+SIZE: 131072, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  131072 0 8
+
+real	0m0.711s
+user	0m0.096s
+sys	0m0.056s
+SIZE: 131072, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  131072 0 16
+
+real	0m0.862s
+user	0m0.085s
+sys	0m0.063s
+SIZE: 131072, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  131072 0 32
+
+real	0m1.014s
+user	0m0.100s
+sys	0m0.058s
+SIZE: 131072, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  131072 0 64
+
+real	0m1.229s
+user	0m0.200s
+sys	0m0.141s
+SIZE: 131072, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  131072 0 128
+
+real	0m2.058s
+user	0m0.242s
+sys	0m0.117s
+SIZE: 131072, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  131072 0 256
+
+real	0m4.299s
+user	0m0.367s
+sys	0m0.190s
+SIZE: 262144, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  262144 0 4
+
+real	0m0.779s
+user	0m0.088s
+sys	0m0.075s
+SIZE: 262144, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  262144 0 8
+
+real	0m0.816s
+user	0m0.086s
+sys	0m0.077s
+SIZE: 262144, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  262144 0 16
+
+real	0m1.105s
+user	0m0.082s
+sys	0m0.066s
+SIZE: 262144, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  262144 0 32
+
+real	0m1.605s
+user	0m0.119s
+sys	0m0.098s
+SIZE: 262144, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  262144 0 64
+
+real	0m1.952s
+user	0m0.147s
+sys	0m0.101s
+SIZE: 262144, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  262144 0 128
+
+real	0m3.368s
+user	0m0.265s
+sys	0m0.118s
+SIZE: 262144, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  262144 0 256
+
+real	0m7.653s
+user	0m0.252s
+sys	0m0.112s
+SIZE: 524288, num_procs: 4
+time mpirun -np 4 --hostfile hostfile ./bitonic  524288 0 4
+
+real	0m0.917s
+user	0m0.131s
+sys	0m0.079s
+SIZE: 524288, num_procs: 8
+time mpirun -np 8 --hostfile hostfile ./bitonic  524288 0 8
+
+real	0m1.109s
+user	0m0.141s
+sys	0m0.100s
+SIZE: 524288, num_procs: 16
+time mpirun -np 16 --hostfile hostfile ./bitonic  524288 0 16
+
+real	0m1.552s
+user	0m0.125s
+sys	0m0.085s
+SIZE: 524288, num_procs: 32
+time mpirun -np 32 --hostfile hostfile ./bitonic  524288 0 32
+
+real	0m2.134s
+user	0m0.122s
+sys	0m0.095s
+SIZE: 524288, num_procs: 64
+time mpirun -np 64 --hostfile hostfile ./bitonic  524288 0 64
+
+real	0m2.989s
+user	0m0.214s
+sys	0m0.149s
+SIZE: 524288, num_procs: 128
+time mpirun -np 128 --hostfile hostfile ./bitonic  524288 0 128
+
+real	0m5.602s
+user	0m0.159s
+sys	0m0.109s
+SIZE: 524288, num_procs: 256
+time mpirun -np 256 --hostfile hostfile ./bitonic  524288 0 256
+
+real	0m13.844s
+user	0m0.172s
+sys	0m0.123s
